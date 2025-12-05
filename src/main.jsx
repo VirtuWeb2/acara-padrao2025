@@ -1,5 +1,6 @@
 import ReactDOM from "react-dom/client";
 import App from "./routes/MainRoutes.jsx";
+import "@fortawesome/fontawesome-free/css/all.css";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { UserProvider } from "./context/UserContext.jsx";
 const client = new QueryClient({
